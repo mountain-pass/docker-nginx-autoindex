@@ -1,9 +1,8 @@
-# About this Repo
+# nginx-autoindex
 
-This is the Git repo of the official Docker image for [nginx](https://registry.hub.docker.com/_/nginx/). See the
-Hub page for the full readme on how to use the Docker image and for information
-regarding contributing and issues.
+## Usage
 
-The full readme is generated over in [docker-library/docs](https://github.com/docker-library/docs),
-specificially in [docker-library/docs/nginx](https://github.com/docker-library/docs/tree/master/nginx).
+```
+docker run -it --rm -v `pwd`:/web:ro -p 3333:80 mountainpass/nginx-autoindex
+```
 
